@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+}
+
+.leftmain{
+    width: 50%;
+}
+
+.leftmain div{
+    margin: 50px 30px 0 auto;
+    width: 380px;
+    height: 600px;
+    background: url(/authorization/img/instaHome.png) center/cover;
+}
+
+.img{
+    width: 252px;
+    height: 520px;
+    margin: 24px 0 0 111px;
+}
+
+.rightMain{
+    width: 50%;
+}
+
+.rightContainer{
+    margin: 60px 0 0 10px;
+    width: 350px;
+    height: 400px;
+    border: 1px solid lightgray;
+}
+
+.topRightMain img{
+    margin: 20px 70px;
+    width: 200px;
+}
+
+.topRightMain input{
+    width: 75%;
+    padding: 8px;
+    margin: 5px 33px;
+    border: 1px solid lightgray;
+}
+
+.topRightMain button{
+    width: 80%;
+    margin: 15px 30px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: #4283ed;
+    color: white;
+}
+.middleRightMain{
+    display: flex;
+   margin-top: 8px;
+}
+
+.middleRightMain div{
+    width: 300px;
+  margin: 7px 33px;
+    height: 1.4px;
+    background-color: lightgray;
+}
+
+.middleRightMain p{
+    text-align: center;
+    color: gray;
+    font-weight: 500;
+}
+
+.bottomRightMain{
+    margin-top: 20px;
+}
+
+.bottomRightMain img{
+    width: 15px;
+    margin: 0px 3px 0 80px;
+}
+
+.signIn{
+    color: #0043af;
+    font-size: 15px;
+}
+
+.bottomRightMain p {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.bottomRightMain p a{
+    color: gray;
+}
+
+
+
+
+.rightBottomContainer{
+    width: 350px;
+    margin: 20px 0 0 10px;
+    border: 1px solid lightgray;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rightBottomContainer a{
+    color: #0043af;
+}
+
+footer{
+    width: 90%;
+   margin: 0 30px;
+   text-align: center;
+}
+
+footer div span{
+    margin: 0 5px;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+footer div a{
+    color: gray;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
+
+footer div p{
+    margin: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 1400px){
+
+}
